@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/index.html#accueil -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FSOCIETY TECH</title>
+  
+  
+<link rel="stylesheet" href="./FSOCIETY TECH_files/style.css"><link href="./FSOCIETY TECH_files/css2" rel="stylesheet"></head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html#accueil">Accueil</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#produits">Produits</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#inscription">Inscription</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="banniere">
+    <img src="./FSOCIETY TECH_files/trace uniquement le .png" alt="Bannière FSOCIETY">
+  </div>
+
+  <main>
+    <section id="accueil">
+      <h1>FSOCIETY TECH</h1>
+      <p>Bienvenue dans l’ombre du système.</p>
+      <p>Inspiré par l’univers de <strong>Mr. Robot</strong>, FSOCIETY TECH est plus qu’une boutique : c’est un manifeste numérique.</p>
+      <p>“La révolution ne sera pas télévisée. Elle sera codée.”</p>
+    </section>
+
+    <section id="produits">
+      <h2>Nos produits FSOCIETY</h2>
+      <div class="product-list">
+
+        <div class="product-item">
+          <h3>💻 Ordinateur portable FSOCIETY</h3>
+          <p>Un laptop robuste et sécurisé, parfait pour les hackers éthiques et les passionnés de technologie.</p>
+          <p>Prix : 1200€</p>
+          <button onclick="ajouterAuPanier(&#39;Ordinateur FSOCIETY&#39;, 1200)">Ajouter au panier</button>
+        </div>
+
+        <div class="product-item">
+          <h3>🧰 Rubber Ducky FSOCIETY Edition</h3>
+          <p>Un outil d’injection USB redoutable pour les pentesters et les curieux du code.</p>
+          <ul>
+            <li>🔐 Scripts personnalisables en DuckyScript</li>
+            <li>⚡ Exécution instantanée dès branchement</li>
+            <li>🖥️ Compatible Windows, macOS, Linux</li>
+            <li>🧠 Utilisé dans les CTF et les audits de sécurité</li>
+          </ul>
+          <p><em>“Ce n’est pas une attaque. C’est une démonstration de vulnérabilité.”</em></p>
+          <p>🔗 Livré avec 5 scripts FSOCIETY préinstallés</p>
+          <p>💥 Prix : 60€</p>
+          <button onclick="ajouterAuPanier(&#39;Rubber Ducky FSOCIETY&#39;, 60)">Ajouter au panier</button>
+        </div>
+
+        <div class="product-item">
+          <h3>👕 T-shirt FSOCIETY</h3>
+          <p>Affichez votre appartenance à la révolution numérique avec style.</p>
+          <p>Prix : 25€</p>
+          <button onclick="ajouterAuPanier(&#39;T-shirt FSOCIETY&#39;, 25)">Ajouter au panier</button>
+        </div>
+
+        <div class="product-item">
+          <h3>🐬 Flipper Zero FSOCIETY Edition</h3>
+          <p>Plongez dans l’univers du hacking avec le Flipper Zero FSOCIETY Edition — l’outil ultime pour les esprits curieux, les bidouilleurs et les activistes numériques.</p>
+          <ul>
+            <li>🔓 Émulation RFID, NFC, IR, Bluetooth, et plus encore</li>
+            <li>💻 Analyse de signaux, pentest, et exploration sans fil</li>
+            <li>🧠 Open-source, personnalisable, et 100% autonome</li>
+          </ul>
+          <p><em>“Ce n’est pas un gadget. C’est une clé pour comprendre le monde invisible.”</em></p>
+          <p>💥 Prix : 180€</p>
+          <p>🔗 Disponible en édition limitée FSOCIETY avec stickers et firmware customisé</p>
+          <button onclick="ajouterAuPanier(&#39;Flipper Zero FSOCIETY&#39;, 180)">Ajouter au panier</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="inscription">
+      <h2>Inscription FSOCIETY</h2>
+      <form action="http://127.0.0.1:5500/InscriptionServlet" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required="">
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required="">
+
+        <label for="motdepasse">Mot de passe :</label>
+        <input type="password" id="motdepasse" name="motdepasse" required="">
+
+        <button type="submit">S’inscrire</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 contact@fsociety.tech</p>
+      <p>📍 Aix-en-Provence, France</p>
+    </section>
+
+    <section id="avis">
+  <h2>Ce que disent nos clients</h2>
+  <div class="temoignages">
+
+    <blockquote>
+      <strong>Alex - ★★★★★</strong><br>
+      “Le Flipper Zero m’a permis de comprendre les failles de mon réseau. FSOCIETY, c’est du concret.”
+    </blockquote>
+
+    <blockquote>
+      <strong>Samir - ★★★★☆</strong><br>
+      “Le Rubber Ducky est une arme pédagogique redoutable. Livraison rapide, scripts efficaces.”
+    </blockquote>
+
+    <blockquote>
+      <strong>Claire - ★★★★☆</strong><br>
+      “Le T-shirt FSOCIETY est stylé et discret. Parfait pour les meetups hackers.”
+    </blockquote>
+
+    <blockquote>
+      <strong>Julien - ★★★☆☆</strong><br>
+      “Le laptop est puissant, mais j’aurais aimé plus de documentation sur la config sécurité.”
+    </blockquote>
+
+  </div>
+</section>
+  </main>
+
+  <footer>
+    <p>© 2025 FSOCIETY TECH. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    const panier = [];
+
+    function ajouterAuPanier(nom, prix) {
+      panier.push({ nom, prix });
+      localStorage.setItem("panierFSOCIETY", JSON.stringify(panier));
+      alert(`✅ ${nom} ajouté au panier !`);
+      console.log("🛒 Panier actuel :", panier);
+    }
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
